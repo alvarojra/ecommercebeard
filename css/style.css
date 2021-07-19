@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.bach-section-one {
+    background-image: url(../img/imgbk1.png);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.bach-section-two {
+    background-image: url(../img/imgbk1.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+footer {
+    height: 200px;
+    padding: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.card-container {
+    background: #fff;
+    border-radius: 35px;
+    padding: 35px;
+    display: grid;
+    width: 573px;
+    height: 308px;
+    
+
+
+
+}
+
+form {
+    display: grid;
+}
+
+
+input[type=submit] {
+    background-color: #454a4b;
+    border: none;
+    color: white;
+    padding: 6px 52px;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
